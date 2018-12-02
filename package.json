@@ -1,0 +1,46 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "Akari",
+  "version": "1.5.2 - Powered by Lolization LLC",
+  "description": "A simple Discord bot written in discord.js.",
+  "main": "shard.js",
+  "scripts": {
+    "start": "node shard.js"
+  },
+  "dependencies": {
+    "@discordjs/uws": "^11.149.1",
+    "anime-scraper": "^3.0.0",
+    "bufferutil": "^4.0.0",
+    "canvas": "github:Automattic/node-canvas#92b192447e9b9ae98da0f801e4e34afdd1dc1ef8",
+    "canvas-constructor": "^2.0.1",
+    "cards": "^1.0.1",
+    "cleverbot.io": "^1.0.4",
+    "common-tags": "^1.8.0",
+    "cpu-stat": "^2.0.1",
+    "discord.js": "^11.4.2",
+    "discordeco.js": "^0.5.0",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "moment": "^2.22.2",
+    "myanimelist": "^0.1.0",
+    "myanimelists": "^1.0.1",
+    "node-superfetch": "^0.1.9",
+    "parse-ms": "^2.0.0",
+    "quick.db": "^7.0.0-b16",
+    "random-js": "^1.0.8"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
