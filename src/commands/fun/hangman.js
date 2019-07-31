@@ -8,8 +8,10 @@ exports.run = async(client, message, args, color, prefix) => {
 		if (playing.has(message.channel.id)) return message.reply('Only one game may be occurring per channel.');
 		playing.add(message.channel.id);
 		try {
-      const { body } = await get('https://sharif-api-js.glitch.me/api/hangman');
-			const word = body[Math.floor(Math.random() * body.length)].toLowerCase();
+                        const { body } = await get('https://emilia-api.glitch.me/api/hangman')
+                        .set('Authorization', `Bearer ${process.env.EMILIAKEY}`);
+
+			const word = body.word;
 			let points = 0;
 			let displayText = null;
 			let guessed = false;
