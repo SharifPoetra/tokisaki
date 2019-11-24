@@ -13,7 +13,7 @@
     "@discordjs/uws": "^11.149.1",
     "anime-scraper": "^3.0.0",
     "bufferutil": "^4.0.0",
-    "canvas": "github:Automattic/node-canvas#92b192447e9b9ae98da0f801e4e34afdd1dc1ef8",
+    "canvas": "^2.6.0",
     "canvas-constructor": "^3.1.0",
     "cards": "^1.0.1",
     "cleverbot.io": "^1.0.4",
