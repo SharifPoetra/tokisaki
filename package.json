@@ -27,7 +27,7 @@
     "myanimelist": "^0.1.0",
     "myanimelists": "^1.0.1",
     "node-superfetch": "^0.1.9",
-    "parse-ms": "^2.0.0",
+    "parse-ms": "^3.0.0",
     "quick.db": "^7.0.0-b16",
     "random-js": "^2.1.0"
   },
