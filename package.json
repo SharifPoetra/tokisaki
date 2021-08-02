@@ -14,7 +14,7 @@
     "anime-scraper": "^3.0.0",
     "bufferutil": "^4.0.0",
     "canvas": "github:Automattic/node-canvas",
-    "canvas-constructor": "^3.1.0",
+    "canvas-constructor": "^5.0.1",
     "cards": "^1.0.1",
     "cleverbot.io": "^1.0.4",
     "common-tags": "^1.8.0",
